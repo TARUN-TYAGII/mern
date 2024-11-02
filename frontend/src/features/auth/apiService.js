@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const USER_API_URL = "http://localhost:5000/api/user";
+const USER_API_URL = "https://mern-2-9x9c.onrender.com/api/user";
 
 const register = async (user) => {
   const response = await axios.post(`${USER_API_URL}/register`, user);
